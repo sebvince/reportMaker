@@ -40,13 +40,13 @@ def gen_md_table(rows1, rows2, threshold, details):
 
             print('| ' + ' | '.join(r) + ' |')
 
-# file1 = read_csv('10_02_25_without_change_gfx942/summary_static_f16.csv')
-# file2 = read_csv('10_02_25_with_change_gfx942/summary_static_f16.csv')
-file1 = read_csv('10_02_25_without_change_gfx942/summary_dynamic_f16.csv')
-file2 = read_csv('10_02_25_with_change_gfx942/summary_dynamic_f16.csv')
+# file1 = read_csv('10_02_25_without_change_gfx950/summary_static_f16.csv')
+# file2 = read_csv('10_02_25_with_change_gfx950/summary_static_f16.csv')
+# file1 = read_csv('10_02_25_without_change_gfx950/summary_dynamic_f16.csv')
+# file2 = read_csv('10_02_25_with_change_gfx950/summary_dynamic_f16.csv')
 
-file1 = read_csv('10_02_25_without_change_gfx942/summary_dynamic_f8E4M3FNUZ.csv')
-file2 = read_csv('10_02_25_with_change_gfx942/summary_dynamic_f8E4M3FNUZ.csv')
+file1 = read_csv('10_02_25_without_change_gfx950/summary_dynamic_f8E4M3FN.csv')
+file2 = read_csv('10_02_25_with_change_gfx950/summary_dynamic_f8E4M3FN.csv')
 
 
 file1_16 = file1[:]
